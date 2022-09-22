@@ -215,7 +215,16 @@ docker container restart drupal
 add and/or remove drupal site folders and files with any ftp client program in ```./drupal``` folder.
 <br />You can also visit `https://example.com` to access website after starting the containers.
 
-#### Redis Plugin
+#### Redis
+
+Edit Drupal settings file: ./drupal/sites/default/settings.php and add these lines at the bottom of the file:
+
+```
+$settings['redis.connection']['host'] = 'redis';
+$settings['redis.connection']['port'] = 6379;
+$settings['cache']['default'] = 'cache.backend.redis';
+$settings['redis.connection']['base'] = 8;
+```
 
 ### phpMyAdmin
 
