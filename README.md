@@ -1,6 +1,6 @@
 # [full stack proxy nginx Drupal for everyone with docker compose](https://github.com/damalis/full-stack-proxy-nginx-drupal-for-everyone-with-docker-compose)
 
-If You want to build a website with Drupal at short time; 
+If You want to build a reverse proxy website with Drupal at short time; 
 
 #### Full stack Proxy Nginx Drupal:
 <p align="left"> <a href="https://drupal.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/docker-library/docs/e405066455691ca2429eb8094777f12d2dad8f91/drupal/logo.svg?sanitize=true" alt="Drupal" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" alt="docker" width="40" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; <a href="https://mariadb.org/" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/5877084?s=200&v=4" alt="mariadb" height="50" width="50"/> </a>&nbsp;&nbsp;&nbsp; <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/1412239?s=200&v=4" alt="nginx" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/25158?s=200&v=4" alt="php" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/1529926?s=200&v=4" alt="redis" height="40" width="40"/> </a>&nbsp;&nbsp;&nbsp; <a href="#" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bash/bash.png" alt="Bash" height="50" width="50" /> </a>&nbsp;&nbsp;&nbsp;
@@ -39,6 +39,7 @@ Create rules to open ports to the internet, or to a specific IPv4 address or ran
 - [Portainer Installation](#portainer)
 - [Usage](#usage)
 	- [Website](#website)
+	- [Proxy](#proxy)
 	- [Webserver](#webserver)
 	- [Database](#database)
 	- [Redis](#redis)
