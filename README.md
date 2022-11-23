@@ -17,7 +17,6 @@ Plus, manage docker containers with Portainer.
 - [phpMyAdmin](https://hub.docker.com/r/phpmyadmin/phpmyadmin/)
 - [database](https://hub.docker.com/_/mariadb)
 - [redis](https://hub.docker.com/_/redis)
-- [varnish](https://hub.docker.com/_/varnish)
 - [backup](https://hub.docker.com/r/futurice/docker-volume-backup)
 
 #### For certbot (letsencrypt) certificate:
@@ -44,7 +43,6 @@ Create rules to open ports to the internet, or to a specific IPv4 address or ran
 	- [Webserver](#webserver)
 	- [Database](#database)
 	- [Redis](#redis)
-	- [Varnish](#varnish)
 	- [phpMyAdmin](#phpmyadmin)
 	- [backup](#backup)					  
 
@@ -262,16 +260,6 @@ $settings['redis.connection']['port'] = 6379;
 $settings['cache']['default'] = 'cache.backend.redis';
 $settings['redis.connection']['base'] = 8;
 ```
-
-#### Varnish
-
-Varnish Server Hostname: varnish
-
-Varnish Server Port: 8080
-
-Scheme: http
-
-[This link is to complete configure Varnish](https://www.varnish-software.com/developers/tutorials/configuring-varnish-drupal/#4-configure-caching-and-purging-in-drupal)
 
 All necessary changes to sites/default and sites/default/settings.php have been made, so you should remove write permissions to them now in order to avoid security risks.
 
