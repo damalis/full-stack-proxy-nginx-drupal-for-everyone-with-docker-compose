@@ -60,23 +60,6 @@ server {
 		proxy_set_header Proxy "";        
 	}
 	#
-	# deny access to .htaccess vb. files, if Apache's document root
-	location ~/\. {
-		deny all;     
-		log_not_found off;
-	}
-	#
-	location = /favicon.ico {
-		log_not_found off;
-		access_log off;
-	}
-	#
-	location = /robots.txt {
-		allow all;
-		log_not_found off;
-		access_log off;
-	}
-	#
 	access_log off;
 	error_log  /var/log/nginx/${NGINX_HOST}.error.log error;
 }
