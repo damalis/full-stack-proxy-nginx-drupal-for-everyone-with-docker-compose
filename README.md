@@ -220,6 +220,8 @@ You should see the "Drupal installation" page in your browser. If not, please ch
 https://example.com
 ```
 
+if you should see the "The website encountered an unexpected error. Please try again later." in your browser, run ```drush cache:rebuild``` in drupal container.
+
 add or remove code in the ./php-fpm/php/conf.d/security.ini file for custom php.ini configurations
 
 [https://www.php.net/manual/en/configuration.file.php](https://www.php.net/manual/en/configuration.file.php)
