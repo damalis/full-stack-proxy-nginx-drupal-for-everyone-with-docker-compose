@@ -165,10 +165,10 @@ docker volume create --driver local --opt type=none --opt device=${PWD}/certbot 
 docker compose up -d
 ```
 
-then reloading for webserver ssl configuration
+then reloading for proxy ssl configuration
 
 ```
-docker container restart webserver
+docker container restart proxy
 ```
 
 The containers are now built and running. You should be able to access the Drupal installation with the configured IP in the browser address. `https://example.com`.
